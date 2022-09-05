@@ -8,7 +8,7 @@
 main {
   display: grid;
   grid-template-columns: repeat(4, 360px);
-  grid-template-rows: 50rem 600px 600px 600px 45rem 450px 360px;
+  grid-template-rows: 50rem 600px 600px 600px 45rem 450px 320px;
   width: 1440px;
   margin: auto;
 }
@@ -54,8 +54,47 @@ main {
     margin-top: 6rem;
 }
 
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
 
+.box .text{
+  font-size: 2rem;
+  padding: 2rem 6rem;
+  
+}
 
+.text p{
+  font-size: medium;
+  line-height: 2rem;
+  margin-top: 1rem;
+  color: rgb(102, 102, 102);
+}
+
+.text a{
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 900;
+  text-decoration: none;
+  padding: 0 5px;
+  
+ }
+ .text1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 19rem;
+  padding: 4rem 12rem;
+  line-height: 2rem;
+ }
+ .text1 h3{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+ }
 
 
 
@@ -73,6 +112,7 @@ main {
   grid-area: 3/3 / span 1 / span 2;
 }
 .box5 {
+ 
   grid-area: 4/1 / span 1 / span 2;
   background-image: url(./images/desktop/image-graphic-design.jpg);
 }
@@ -83,7 +123,7 @@ main {
 
 .container {
   grid-area: 5/1 / span 1 / span 4;
-  background-color: antiquewhite;
+  background-color: rgb(240, 233, 225);
 }
 
 .container h1 {
@@ -149,4 +189,20 @@ footer {
   align-items: center;
   font-size: 2.3rem;
   justify-content: space-evenly;
+   color: rgb(20, 108, 108);
+}
+
+.footernav a{
+  text-decoration: none;
+  color: rgb(20, 108, 108);
+  margin: 2rem;
+  font-size: medium;
+}
+
+.footernav{
+  margin-bottom: 3rem;
+}
+
+.contant img{
+  margin: 0.5rem;
 }
