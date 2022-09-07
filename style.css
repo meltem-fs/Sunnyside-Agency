@@ -4,8 +4,73 @@
   box-sizing: border-box;
   /* border: 1px solid red; */
 }
+.header {
+  background-image: url(./images/desktop/image-header.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+.box {
+  height: 100%;
+}
+.box5 {
+  background-image: url(./images/desktop/image-graphic-design.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.box6 {
+  background-image: url(./images/desktop/image-photography.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.box2 {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./images/desktop/image-transform.jpg);
+}
+.box3 {
+  background-image: url(./images/desktop/image-stand-out.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
 
-main {
+
+.img1 {
+  background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img2 {
+  background-image: url(./images/desktop/image-gallery-orange.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img3 {
+  background-image: url(./images/desktop/image-gallery-cone.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img4 {
+  background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+  .box2 {
+    height: 75vh;
+  }
+  .box3 {
+    height: 75vh;
+  }
+}
+
+/* main {
   display: grid;
   grid-template-columns: repeat(4, 360px);
   grid-template-rows: 50rem 600px 600px 600px 45rem 450px 320px;
@@ -32,7 +97,6 @@ main {
 }
 .nav-bar a{
     text-decoration: none;
-    /* color: white; */
     font-size:1.4rem;
     margin-left: 2rem;
 }
@@ -147,7 +211,6 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* padding: 6rem; */
 }
 .user img {
   width: 3rem;
@@ -177,7 +240,7 @@ main {
 }
 .container1 img {
   width: 360px;
-  /* height: 380px; */
+  
 }
 
 footer {
@@ -185,7 +248,7 @@ footer {
   background-color: rgb(151, 211, 210);
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+
   align-items: center;
   font-size: 2.3rem;
   justify-content: space-evenly;
@@ -205,4 +268,4 @@ footer {
 
 .contant img{
   margin: 0.5rem;
-}
+}  */

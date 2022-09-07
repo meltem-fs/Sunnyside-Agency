@@ -11,69 +11,77 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
     <title>Team Anka | Sunnyside agency landing page</title>
   </head>
   <body>
-    <main>
-      <div class="header">
-        <nav class="nav-bar">
-          <p>Sunnyside</p>
+    <div class="container-fluid">
+      <main class="row" style="height:90vh;" >
+       <div class="header col-12 h-100 ">
+        <nav >
+          <p class="ms-3 text-white fw-bolder">Sunnyside</p>
 
-          <p>
+          <p class="d-none d-md-inline">
             <a style="color:white ;" href="">About</a>
             <a style="color:white ;"  href="">Services</a>
             <a style="color:white ;" href="">Projects</a>
             <a class="contact" href="">Contact</a>
           </p>
         </nav>
-        <h1>WE ARE CREATİVES</h1>
-        <img src="./images/icon-arrow-down.svg" alt="" />
-      </div>
-      <div class="box box1">
-        <div class="text">
-          <h2>Transform your <br> brand</h2>
-        <p>
+        <h1 class="text-center d-block mt-5  display-1 fw-bolder text-white">WE ARE <br> CREATİVES</h1>
+        <img class=" d-flex m-auto mt-5 h-25" src="./images/icon-arrow-down.svg" alt="" />
+       </div>
+
+       <div class="box box1 col-12 h-100 col-lg-6 text-center  fs-5 d-flex  align-items-center">
+        <div class="text d-flex flex-column justify-content-evenly h-75 align-items-center ">
+          <h2 class="display-3 fw-bolder lh-md" >Transform your <br> brand</h2>
+        <p class="display-6 p-5">
           We are a full-service creative agency specializing in helping brands
           grow fast. Engage your clients through compelling visuals that do most
           of the marketing for you.
         </p>
-        <a style="border-bottom: 8px solid rgb(252, 252, 91) ;" href="">LEARN MORE</a>
+        <a class="text-decoration-none text-dark" style="border-bottom: 8px solid rgb(252, 252, 91) ;" href="">LEARN MORE</a>
         </div>
+       </div>
+
+
+      <div class=" box box2 col-12 col-lg-6  ">
+        <!-- <img class="w-100" src="./images/desktop/image-transform.jpg" alt="" /> -->
       </div>
-      <div class="box box2">
-        <img src="./images/desktop/image-transform.jpg" alt="" />
+
+      <div class="box box3 col-12  col-lg-6">
+        <!-- <img class="w-100" src="./images/desktop/image-stand-out.jpg" alt="" /> -->
       </div>
-      <div class="box box3">
-        <img src="./images/desktop/image-stand-out.jpg" alt="" />
-      </div>
-      <div class="box box4">
-        <div class="text">
-           <h2>Stand out to the right <br>
+
+      <div class="box box4 col-12 h-100 col-md-6 text-center  fs-5 d-flex  align-items-center">
+        <div class="text- d-flex flex-column justify-content-evenly h-75 align-items-center ">
+           <h2 class="display-3 fw-bolder lh-md">Stand out to the right <br>
           audience</h2>
-        <p>
+        <p class="display-6 p-5">
           Using a collaborative formula of designers, researchers,
           photographers, videographers, and copywriters, we'll build and extend
           your brand in digital places.
         </p>
-        <a style="border-bottom: 8px solid rgb(248, 132, 97) ;" href="">LEARN MORE</a>
+        <a class="text-decoration-none text-dark" style="border-bottom: 8px solid rgb(248, 132, 97) ;" href="">LEARN MORE</a>
         </div>
       </div>
-      <div class="box box5">
+
+      <div class="box box5 col-md-6 h-100 d-flex align-items-end ">
         <!-- <img src="./images/desktop/image-graphic-design.jpg" alt=""> -->
-       <div class="text1">
-         <h3>Graphic design</h3>
-        <p>
+       <div class="text1 text-center ">
+         <h3 class="display-4 fw-semibold p-3">Graphic Design</h3>
+        <p class="h3 p-5 ">
           Great design makes you memorable. We deliver artwork that underscores
           your brand message and captures potential clients' attention.
         </p>
        </div>
        
       </div>
-      <div class="box box6">
-        <div class="text1">
-          <h3>Photography</h3>
-        <p>
+      <div class="box box6 col-md-6 h-100 d-flex align-items-end">
+        <div class="text1 text-center">
+          <h3 class="display-4 fw-semibold p-3">Photography</h3>
+        <p class="h3 p-5 ">
           Increase your credibility by getting the most stunning, high-quality
           photos that improve your business image.
         </p>
@@ -81,64 +89,66 @@
         
       </div>
 
-      <div class="container">
-        <h1>CLİENT TESTİMONİALS</h1>
+      <div class="container text-center my-2 p-5">
+        <h1 class="mb-5">CLİENT TESTİMONİALS</h1>
 
         <div class="user">
-          <div class="clint1">
-            <img src="./images/image-emily.jpg" alt="" />
+          <div class="clint1 mb-5">
+            <img class="rounded-circle w-25 p-3" src="./images/image-emily.jpg" alt="" />
 
-            <p>
+            <p class="px-5 py-4 h3">
               We put our trust in Sunnyside and they delivered, making sure our
               needs were met and deadlines were always hit.
             </p>
 
-            <h5>Emily R. <br><span> Marketing Director </span></h5>
+            <h5 class="fw-bold pb-5">Emily R. <br><span class="text-muted"> Marketing Director </span></h5>
           </div>
-          <div class="clint2">
-            <img src="./images/image-thomas.jpg" alt="" />
+          <div class="clint2 mb-5">
+            <img class="rounded-circle w-25 p-3" src="./images/image-thomas.jpg" alt="" />
 
-            <p>
+            <p class="p-5 py-4 h3">
               Sunnyside's enthusiasm coupled with their keen interest in our
               brand's success made it a satisfying and enjoyable experience.
             </p>
 
-            <h5>Thomas S. <br> <span> Chief Operating Officer </span></h5>
+            <h5 class="fw-bold pb-5">Thomas S. <br> <span class="text-muted"> Chief Operating Officer </span></h5>
           </div>
-          <div class="clint3">
-            <img src="./images/image-jennie.jpg" alt="" />
+          <div class="clint3 mb-5">
+            <img class="rounded-circle w-25 p-3" src="./images/image-jennie.jpg" alt="" />
 
-            <p>
+            <p class="p-5 py-4 h3">
               Incredible end result! Our sales increased over 400% when we
               worked with Sunnyside. Highly recommended!
             </p>
 
-            <h5>Jennie F. <br> <span> Business Owner </span></h5>
+            <h5 class="fw-bold pb-5">Jennie F. <br> <span class="text-muted"> Business Owner </span></h5>
           </div>
         </div>
-      </div>
-      <div class="container1">
-        <img src="images/desktop/image-gallery-milkbottles.jpg" alt="" />
-        <img src="./images/desktop/image-gallery-orange.jpg" alt="" />
-        <img src="./images/desktop/image-gallery-cone.jpg" alt="" />
-        <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="" />
-      </div>
+       </div>
+     
+       <div class="img1 col-6 h-50"></div>
+       <div class="img2 col-6 h-50"></div>
+       <div class="img3 col-6 h-50"></div>
+       <div class="img4 col-6 h-50"></div>
+      
 
-      <footer>
-        <h4>sunnyside</h4>
+      <footer class="h-75 bg-info text-light d-flex flex-column justify-content-around align-items-center">
+        <h4 class="display-2 mt-5 fw-bold">sunnyside</h4>
 
-        <div class="footernav">
-          <a href="">About</a>
-          <a href="">Services</a>
-          <a href="">Projects</a>
+        <div class="footernav h3">
+          <a class="px-5 text-decoration-none text-white" href="">About</a>
+          <a class="px-5 text-decoration-none text-white" href="">Services</a>
+          <a class="px-5 text-decoration-none text-white" href="">Projects</a>
         </div>
-        <div class="contant">
-          <img src="./images/icon-facebook.svg" alt="" />
-          <img src="./images/icon-instagram.svg" alt="" />
-          <img src="./images/icon-pinterest.svg" alt="" />
-          <img src="./images/icon-twitter.svg" alt="" />
+        <div class="contant mb-5 p-5 mt-5 ">
+          <img class="p-3" src="./images/icon-facebook.svg" alt="" />
+          <img class="p-3" src="./images/icon-instagram.svg" alt="" />
+          <img class="p-3" src="./images/icon-pinterest.svg" alt="" />
+          <img class="p-3" src="./images/icon-twitter.svg" alt="" />
         </div>
       </footer>
     </main>
+    </div>
+    
   </body>
 </html>
