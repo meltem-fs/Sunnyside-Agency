@@ -62,11 +62,17 @@
 }
 
 @media screen and (max-width: 992px) {
+  .box1{
+    
+  }
   .box2 {
     height: 75vh;
   }
   .box3 {
     height: 75vh;
+  }
+  .box5{
+    height: 50vh;
   }
 }
 
