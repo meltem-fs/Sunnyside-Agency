@@ -1,5 +1,7 @@
 # Frontend Mentor - Sunnyside agency landing page
 
+[click here to see](https://meltem-fs.github.io/Sunnyside-Agency/)
+
 ![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
